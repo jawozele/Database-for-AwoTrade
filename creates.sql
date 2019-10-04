@@ -1,50 +1,44 @@
+-- CREATE DATABASE AWOTRADE 
+CREATE SCHEMA awotrade; 
 
+USE awotrade; 
 
--- CREATE DATABASE AWOTRADE
+-- CREATE TABLE CUSTOMERS 
+CREATE TABLE customers 
+  ( 
+     customerid   INT, 
+     customername VARCHAR(50), 
+     contactname  VARCHAR(50), 
+     address      VARCHAR(80), 
+     city         VARCHAR(30), 
+     postalcode   VARCHAR(10), 
+     country      VARCHAR(20) 
+  ); 
 
-CREATE SCHEMA AWOTRADE;
+-- CATEGORIES TABLE 
+CREATE TABLE categories 
+  ( 
+     categoryid   INT NOT NULL, 
+     categoryname VARCHAR(50), 
+     description  VARCHAR(200) 
+  ); 
 
-USE AWOTRADE;
+-- EMPLOYEES TABLE 
+CREATE TABLE employees 
+  ( 
+     employeeid INT NOT NULL, 
+     lastname   VARCHAR(50), 
+     firstname  VARCHAR(50), 
+     birthdate  DATE, 
+     email      VARCHAR(50), 
+     notes      VARCHAR(200) 
+  ); 
 
--- CREATE TABLE CUSTOMERS
-
-CREATE TABLE CUSTOMERS (
-CustomerID INT,
-CustomerName VARCHAR(50),
-ContactName VARCHAR(50),
-Address VARCHAR(80),
-City VARCHAR(30),
-PostalCode VARCHAR(10),
-Country VARCHAR(20)
-);
-
-
--- CATEGORIES TABLE
-
-CREATE TABLE CATEGORIES (
-CategoryID INT NOT NULL,
-CategoryName VARCHAR(50),
-Description VARCHAR(200)
-);
-
-
--- EMPLOYEES TABLE
-
-CREATE TABLE EMPLOYEES (
-EmployeeID INT NOT NULL,
-LastName VARCHAR(50),
-FirstName VARCHAR(50),
-BirthDate DATE,
-Email VARCHAR(50),
-Notes VARCHAR(200)
-);
-
-
--- ORDERDETAILS TABLE
-
-CREATE TABLE ORDERDETAILS (
-OrderDetailID INT NOT NULL,
-OrderID INT,
-ProductID INT,
-Quantity INT
-);
+-- ORDERDETAILS TABLE 
+CREATE TABLE orderdetails 
+  ( 
+     orderdetailid INT NOT NULL, 
+     orderid       INT, 
+     productid     INT, 
+     quantity      INT 
+  ); 
