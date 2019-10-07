@@ -1,8 +1,6 @@
 -- CREATE DATABASE AWOTRADE 
 CREATE SCHEMA awotrade; 
 
-USE awotrade; 
-
 -- CREATE TABLE CUSTOMERS 
 CREATE TABLE customers 
   ( 
@@ -41,4 +39,44 @@ CREATE TABLE orderdetails
      orderid       INT, 
      productid     INT, 
      quantity      INT 
+  ); 
+
+-- ORDERS TABLE 
+CREATE TABLE orders 
+  ( 
+     orderid    INT, 
+     customerid INT, 
+     employeeid INT, 
+     orderdate  DATE, 
+     shipperid  INT 
+  ); 
+
+-- PRODUCTS TABLE 
+CREATE TABLE products 
+  ( 
+     productid   INT, 
+     productname VARCHAR(50), 
+     supplierid  VARCHAR(50), 
+     categoryid  INT, 
+     unit        INT, 
+     price       INT 
+  ); 
+
+-- SHIPPERS TABLE 
+CREATE TABLE shippers 
+  ( 
+     shipperid   INT, 
+     shippername VARCHAR(30), 
+     phone       INT 
+  ); 
+
+-- SUPPLIERS TABLE 
+CREATE TABLE suppliers 
+  ( 
+     supplierid   INT, 
+     suppliername VARCHAR(20), 
+     contactname  VARCHAR(50), 
+     address      VARCHAR(200), 
+     city         VARCHAR(50), 
+     postalcode   VARCHAR(50) 
   ); 
