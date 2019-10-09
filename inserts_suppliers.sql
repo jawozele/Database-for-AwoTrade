@@ -7,7 +7,9 @@ VALUES      (1,
              'Charlotte Cooper', 
              '49 Gilbert St.', 
              'London', 
-             'EC1 4SD'); 
+             'EC1 4SD'
+             'UK',
+             2030704453); 
 
 INSERT INTO suppliers 
 VALUES      (2, 
