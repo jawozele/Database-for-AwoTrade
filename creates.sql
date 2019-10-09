@@ -79,4 +79,6 @@ CREATE TABLE suppliers
      address      VARCHAR(200), 
      city         VARCHAR(50), 
      postalcode   VARCHAR(50) 
+     country      VARCHAR(30)
+     phone        INT(11)
   ); 
