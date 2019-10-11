@@ -1,106 +1,243 @@
+-- PRODUCT'S INSERT 
+INSERT INTO products 
+VALUES      (1, 
+             'Chais', 
+             1, 
+             1, 
+             '10 boxes x 20 bags', 
+             18); 
 
+INSERT INTO products 
+VALUES      (2, 
+             'Chang', 
+             1, 
+             1, 
+             '24 - 12 oz bottles', 
+             19); 
 
--- PRODUCT'S INSERT
+INSERT INTO products 
+VALUES      (3, 
+             'Aniseed Syrup', 
+             1, 
+             2, 
+             '12 - 550 ml bottles', 
+             10); 
 
-INSERT INTO PRODUCTS
-VALUES (1, 'Chais', 1, 1, '10 boxes x 20 bags', 18);
+INSERT INTO products 
+VALUES      (4, 
+             "chef anton's cajun seasoning", 
+             2, 
+             2, 
+             '48 - 6 oz jars', 
+             22); 
 
+INSERT INTO products 
+VALUES      (5, 
+             "chef anton's gumbo mix", 
+             2, 
+             2, 
+             '36 boxes', 
+             21.35); 
 
-INSERT INTO PRODUCTS
-VALUES (2, 'Chang', 1, 1, '24 - 12 oz bottles', 19);
+INSERT INTO products 
+VALUES      (6, 
+             "grandma's boysenberry spread", 
+             3, 
+             2, 
+             '12 - 8 oz jars', 
+             25); 
 
-INSERT INTO PRODUCTS
-VALUES (3, 'Aniseed Syrup', 1, 2, '12 - 550 ml bottles', 10);
+INSERT INTO products 
+VALUES      (7, 
+             "uncle bob's organic dried pears", 
+             3, 
+             7, 
+             '12 - 1 lb pkgs.', 
+             30); 
 
-INSERT INTO PRODUCTS
-VALUES (4, "Chef Anton's Cajun Seasoning", 2, 2, '48 - 6 oz jars', 22);
+INSERT INTO products 
+VALUES      (8, 
+             'Northwoods Cranberry Sauce', 
+             3, 
+             2, 
+             '12 - 12 oz jars', 
+             40); 
 
-INSERT INTO PRODUCTS
-VALUES (5, "Chef Anton's Gumbo Mix", 2, 2, '36 boxes', 21.35);
+INSERT INTO products 
+VALUES      (9, 
+             'Mishi Kobe Niku', 
+             4, 
+             6, 
+             '18 - 500 g pkgs.', 
+             97); 
 
-INSERT INTO PRODUCTS
-VALUES (6, "Grandma's Boysenberry Spread", 3, 2, '12 - 8 oz jars', 25);
+INSERT INTO products 
+VALUES      (10, 
+             'Ikura', 
+             4, 
+             8, 
+             '12 - 200 ml jars', 
+             31); 
 
-INSERT INTO PRODUCTS
-VALUES (7, "Uncle Bob's Organic Dried Pears", 3, 7, '12 - 1 lb pkgs.', 30);
+INSERT INTO products 
+VALUES      (11, 
+             'Queso Cabrales', 
+             5, 
+             4, 
+             '1 kg pkg.', 
+             21); 
 
-INSERT INTO PRODUCTS
-VALUES (8, 'Northwoods Cranberry Sauce', 3, 2, '12 - 12 oz jars', 40);
+INSERT INTO products 
+VALUES      (12, 
+             'Queso Manchego La Pastora', 
+             5, 
+             4, 
+             '10 - 500 g pkgs.', 
+             38); 
 
-INSERT INTO PRODUCTS
-VALUES (9, 'Mishi Kobe Niku', 4, 6, '18 - 500 g pkgs.', 97);
+INSERT INTO products 
+VALUES      (13, 
+             'Konbu', 
+             6, 
+             8, 
+             '2 kg box', 
+             6); 
 
+INSERT INTO products 
+VALUES      (14, 
+             'Tofu', 
+             6, 
+             7, 
+             '40 - 100 g pkgs.', 
+             23.25); 
 
-INSERT INTO PRODUCTS
-VALUES (10, 'Ikura', 4, 8, '12 - 200 ml jars', 31);
+INSERT INTO products 
+VALUES      (15, 
+             'Genen Shouyu', 
+             6, 
+             2, 
+             '24 - 250 ml bottles', 
+             15.5); 
 
-INSERT INTO PRODUCTS
-VALUES (11, 'Queso Cabrales', 5, 4, '1 kg pkg.', 21);
+INSERT INTO products 
+VALUES      (16, 
+             'Pavlova', 
+             7, 
+             3, 
+             '32 - 500 g boxes', 
+             17.45); 
 
-INSERT INTO PRODUCTS
-VALUES (12, 'Queso Manchego La Pastora', 5, 4, '10 - 500 g pkgs.', 38);
+INSERT INTO products 
+VALUES      (17, 
+             'Alice Mutton', 
+             7, 
+             6, 
+             '20 - 1 kg tins', 
+             39); 
 
-INSERT INTO PRODUCTS
-VALUES (13, 'Konbu', 6, 8, '2 kg box', 6);
+INSERT INTO products 
+VALUES      (18, 
+             'Carnarvon Tigers', 
+             7, 
+             8, 
+             '16 kg pkg.', 
+             62.5); 
 
-INSERT INTO PRODUCTS
-VALUES (14, 'Tofu', 6, 7, '40 - 100 g pkgs.', 23.25);
+INSERT INTO products 
+VALUES      (19, 
+             'Teatime Chocolate Biscuits', 
+             8, 
+             3, 
+             '10 boxes x 12 pieces', 
+             9.2); 
 
-INSERT INTO PRODUCTS
-VALUES (15, 'Genen Shouyu', 6, 2, '24 - 250 ml bottles', 15.5);
+INSERT INTO products 
+VALUES      (20, 
+             "sir rodney's marmalade", 
+             8, 
+             3, 
+             '30 gift boxes', 
+             81); 
 
-INSERT INTO PRODUCTS
-VALUES (16, 'Pavlova', 7, 3, '32 - 500 g boxes', 17.45);
+INSERT INTO products 
+VALUES      (21, 
+             "sir rodney's scones", 
+             8, 
+             3, 
+             '24 pkgs. x 4 pieces', 
+             10); 
 
-INSERT INTO PRODUCTS
-VALUES (17, 'Alice Mutton', 7, 6, '20 - 1 kg tins', 39);
+INSERT INTO products 
+VALUES      (22, 
+             "gustaf's kn�ckebr�d", 
+             9, 
+             5, 
+             '24 - 500 g pkgs.', 
+             21); 
 
+INSERT INTO products 
+VALUES      (23, 
+             'Tunnbröd', 
+             9, 
+             5, 
+             '12 - 250 g pkgs.', 
+             9); 
 
-INSERT INTO PRODUCTS
-VALUES (18, 'Carnarvon Tigers', 7, 8, '16 kg pkg.', 62.5);
+INSERT INTO products 
+VALUES      (24, 
+             'Guaraná Fantástica', 
+             10, 
+             1, 
+             '12 - 355 ml cans', 
+             4.5); 
 
-INSERT INTO PRODUCTS
-VALUES (19, 'Teatime Chocolate Biscuits', 8, 3, '10 boxes x 12 pieces', 9.2);
+INSERT INTO products 
+VALUES      (25, 
+             'NuNuCa Nuß-Nougat-Creme', 
+             11, 
+             3, 
+             '20 - 450 g glasses', 
+             14); 
 
-INSERT INTO PRODUCTS
-VALUES (20, "Sir Rodney's Marmalade", 8, 3, '30 gift boxes', 81);
+INSERT INTO products 
+VALUES      (26, 
+             "gumb�r gummib�rchen", 
+             11, 
+             3, 
+             '100 - 250 g bags', 
+             31.23); 
 
-INSERT INTO PRODUCTS
-VALUES (21, "Sir Rodney's Scones", 8, 3, '24 pkgs. x 4 pieces', 10);
+INSERT INTO products 
+VALUES      (27, 
+             "schoggi schokolade", 
+             11, 
+             3, 
+             '100 - 100 g pieces', 
+             43.9); 
 
-INSERT INTO PRODUCTS
-VALUES (22, "Gustaf's Knäckebröd", 9, 5, '24 - 500 g pkgs.', 21);
+INSERT INTO products 
+VALUES      (28, 
+             "r�ssle sauerkraut", 
+             12, 
+             7, 
+             '25 - 825 g cans', 
+             45.6); 
 
-INSERT INTO PRODUCTS
-VALUES (23, 'Tunnbröd', 9, 5, '12 - 250 g pkgs.', 9);
+INSERT INTO products 
+VALUES      (29, 
+             'Thüringer Rostbratwurst', 
+             12, 
+             6, 
+             '50 bags x 30 sausgs.', 
+             123.79); 
 
-INSERT INTO PRODUCTS
-VALUES (24, 'Guaraná Fantástica', 10, 1, '12 - 355 ml cans', 4.5);
-
-
-INSERT INTO PRODUCTS
-VALUES (25, 'NuNuCa Nuß-Nougat-Creme', 11, 3, '20 - 450 g glasses', 14);
-
-INSERT INTO PRODUCTS
-VALUES (26, "Gumbär Gummibärchen", 11, 3, '100 - 250 g bags', 31.23);
-
-INSERT INTO PRODUCTS
-VALUES (27, "Schoggi Schokolade", 11, 3, '100 - 100 g pieces', 43.9);
-
-INSERT INTO PRODUCTS
-VALUES (28, "Rössle Sauerkraut", 12, 7, '25 - 825 g cans', 45.6);
-
-INSERT INTO PRODUCTS
-VALUES (29, 'Thüringer Rostbratwurst', 12, 6, '50 bags x 30 sausgs.', 123.79);
-
-INSERT INTO PRODUCTS
-VALUES (30, 'Nord-Ost Matjeshering', 13, 8, '10 - 200 g glasses', 25.89);
-
-
-
-
-
-
+INSERT INTO products 
+VALUES      (30, 
+             'Nord-Ost Matjeshering', 
+             13, 
+             8, 
+             '10 - 200 g glasses', 
+             25.89); 
 
 INSERT INTO products 
 VALUES      (31, 
@@ -341,31 +478,3 @@ VALUES      (60,
              4, 
              '15 - 300 g rounds', 
              34); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
